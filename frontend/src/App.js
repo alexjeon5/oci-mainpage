@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     // Docker 환경에서는 백엔드 컨테이너 혹은 리버스 프록시 주소에 맞게 조정이 필요할 수 있습니다.
-    fetch('http://localhost:5000/api/status')
+    fetch('/api/status')
       .then((res) => res.json())
       .then((data) => setServerInfo(data))
       .catch((err) => {

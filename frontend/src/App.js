@@ -140,10 +140,10 @@ function App() {
                     </div>
                   </div>
                   <div className="info-item">
-                    <i className="fa-brands fa-raspberry-pi fa-fw"></i>
+                    <i class="fa-brands fa-cloudflare fa-fw"></i>
                     <div>
-                      <span className="info-item-title">Hardware</span>
-                      <span className="info-item-value">Raspberry Pi 3B</span>
+                      <span className="info-item-title">VPS System</span>
+                      <span className="info-item-value">Oracle Cloud Infrastructure</span>
                     </div>
                   </div>
                   <div className="info-item">
